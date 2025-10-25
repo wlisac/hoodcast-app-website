@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Feedback · Hoodcast</title>
+  <meta name="color-scheme" content="dark light">
+  <style>
+:root {
+  --text: #1c1c1e;
+  --muted: #555;
+  --accent: #007aff;
+  --bg1: #f2f2f2;
+  --bg2: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #e8e8ea;
+    --muted: #aab5c3;
+    --accent: #7dc8ff;
+    --bg1: #1c1c1e;
+    --bg2: #2c2c2f;
+  }
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, var(--bg1) 0%, var(--bg2) 100%);
+  color: var(--text);
+  font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px 20px;
+}
+
+.app-logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 24px;
+  display: block;
+  margin: 0 auto 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+main {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+article {
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  padding: 28px;
+  backdrop-filter: blur(8px);
+}
+
+@media (prefers-color-scheme: dark) {
+  article {
+    background: rgba(44, 44, 47, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: var(--accent);
+  text-decoration: none;
+  margin: 0 6px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+</style>
+</head>
+<body>
+  <header>
+    <img src="hoodcast-dark-icon.png" alt="Hoodcast Logo" class="app-logo">
+    <h1>Hoodcast</h1>
+  </header>
+  <main>
+    <article>
+      
+<h1>We’d love your feedback</h1>
+<p>Have a suggestion, bug report, or comment? Send us a note — it helps make Hoodcast better.</p>
+<p>Email: <a href="mailto:hoodcast@lisac.org">hoodcast@lisac.org</a></p>
+
+    </article>
+  </main>
+  <footer>
+    <a href="privacy.html">Privacy Policy</a> · 
+    <a href="terms.html">Terms of Service</a> ·
+    <a href="support.html">Feedback</a>
+    <div class="copy">© 2025 Will Lisac · Oregon, USA</div>
+  </footer>
+</body>
+</html>
